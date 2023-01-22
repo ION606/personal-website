@@ -48,7 +48,7 @@ hr {
 }
 
 #toggle i {
-    margin-top: 1em;
+    margin: 1em;
     scale: 2;
     color: white;
 }
@@ -70,6 +70,7 @@ hr {
 
 
 #aboutme {
+    margin: auto;
     margin-top: 2em;
     color: rgb(87, 83, 83);
     border-color: lightblue;
@@ -93,6 +94,7 @@ hr {
 
 
 .sectcontainer {
+    margin: auto;
     margin-top: 2em;
     padding: 10px;
     color: rgb(87, 83, 83);
@@ -180,7 +182,7 @@ hr {
 
 
 /* Center all the boxes */
-@media screen and (min-width: 1000px) {
+@media screen and (min-width: 700px) {
     #resumecontainer {
         text-align: center;
     }

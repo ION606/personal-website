@@ -104,7 +104,7 @@ function databases(name) {
         
         txt += `<h1>MongoDB</h1><p>`;
         txt += "I use MongoDB when creating <a href=\"https://docs.selmerbot.com\">Selmer Bot</a>.";
-        txt += "This includes use data aggregation, nested queries, mapping, and more</p>";
+        txt += "This includes the use of data aggregation, nested queries, mapping, and more</p>";
 
         txt += `<link rel="stylesheet" type="text/css" href="/personal-website/CSS/popups.css">`;
         txt += `<script>window.onbeforeunload = function() {window.close();}</script>`;
