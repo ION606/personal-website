@@ -35,7 +35,7 @@ function langs(name) {
 
     var txt = `<script>window.onbeforeunload = function() {window.close();}</script>`;
     txt += `<link rel="stylesheet" type="text/css" href="/personal-website/CSS/popups.css">`;
-    txt += `<img src="/icons/${(name == "c#") ? "csharp" : name}.png">`;
+    txt += `<img src="/personal-website/icons/${(name == "c#") ? "csharp" : name}.png">`;
     txt += `<h1>${name}</h1>`;
     txt += `<p>${desc}</p>`;
 
@@ -100,7 +100,7 @@ function databases(name) {
         openURL("https://www.mysql.com/");
     } else {
         const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
-        var txt = `<img src="/icons/mongodb.png">`;
+        var txt = `<img src="/personal-website/icons/mongodb.png">`;
         txt += `<h1>MongoDB</h1><p>`;
         txt += "I use MongoDB when creating <a href=\"https://docs.selmerbot.com\">Selmer Bot</a>.";
         txt += "This includes use data aggregation, nested queries, mapping, and more</p>";
