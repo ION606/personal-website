@@ -47,10 +47,21 @@ hr {
     margin-top: 1em;
 }
 
+#toggle:checked .contact {
+    transform: translateX(100px);
+    filter: opacity(1);
+}
+
 #toggle i {
     margin: 1em;
     scale: 2;
     color: white;
+}
+
+#toggle .contact {
+    transition: transform 1s, filter 1s;
+    transform: translateX(20px);
+    filter: opacity(0);
 }
 
 .contact a {
@@ -109,7 +120,7 @@ hr {
 }
 
 #languagesbox h2 {
-    color: rgb(221, 5, 70)
+    color: rgb(221, 145, 5)
 }
 
 #skills h1 {
