@@ -1,0 +1,46 @@
+.logo{
+    flex: 1;
+    color: rgb(2, 37, 18);
+    text-shadow: 0 0 2px #000;
+    margin-left: 50px;
+}
+
+ul {
+    flex: 2;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+ul li {
+    list-style: none;
+}
+
+ul li a {
+    text-decoration: none;
+    color: rgb(233, 151, 0);
+    font-size: 1.4em;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 15px;
+}
+
+.fa-facebook{
+    color: #3b5998;
+}
+
+.fa-twitter{
+    color: #55acee;
+}
+
+.fa-instagram{
+    color: #ee1414;
+}
+
+ul li a:hover{
+    opacity: 80%;
+}
+
+nav .menu{
+    font-size: 2.5em;
+    display: none;
+}

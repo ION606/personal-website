@@ -1,0 +1,193 @@
+body {
+    margin: 2em;
+    background-color: rgb(35, 54, 78);
+    align-items: center;
+}
+
+.resume_outline {
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 1.1em;
+    background-color: white;
+    width: 800px;
+    height: 800px;
+}
+
+
+h1 {
+    margin-bottom: 0px;
+    color:rgb(199, 199, 180);
+}
+
+
+hr {
+    margin-top: 0px;
+    color: pink;
+}
+
+
+.resume_content {
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+
+.contact {
+    margin-top: 1em;
+    margin-right: 2em;
+    display: flex;
+    justify-content: space-evenly;
+    display: none;
+    float: right;
+}
+
+
+#toggle {
+    margin-left: 10px;
+    margin-top: 1em;
+}
+
+#toggle i {
+    margin-top: 1em;
+    scale: 2;
+    color: white;
+}
+
+.contact a {
+    text-decoration: none;
+    color: rgb(5, 149, 197);
+}
+
+.contact i {
+    scale: 2;
+    margin-right: 15px;
+    margin-left: 50px;
+}
+
+.contact .phone {
+    color: rgb(8, 173, 8);
+}
+
+
+#aboutme {
+    margin-top: 2em;
+    color: rgb(87, 83, 83);
+    border-color: lightblue;
+    border-width: 0.5px;
+    border-style: solid;
+    width: 50vw;
+    overflow-x: hidden;
+    border-radius: 10px;
+    max-width: 700px;
+}
+
+#aboutme h1 {
+    margin-left: 10px;
+}
+
+#aboutme p {
+    margin-left: 10px;
+    color: rgb(199, 199, 180);
+}
+
+
+
+.sectcontainer {
+    margin-top: 2em;
+    padding: 10px;
+    color: rgb(87, 83, 83);
+    border-color: lightblue;
+    border-width: 1px;
+    border-style: solid;
+    width: 50vw;
+    overflow-x: hidden;
+    border-radius: 10px;
+    justify-content: space-between;
+    max-width: 700px;
+}
+
+#languagesbox h2 {
+    color: rgb(221, 5, 70)
+}
+
+#skills h1 {
+    margin-left: 10px;
+}
+
+#skills h2 {
+    margin-left: 10px;
+    color: rgb(221, 192, 138);
+    margin-bottom: 0px;
+}
+
+#skills p {
+    margin-left: 10px;
+    color: rgb(199, 199, 180);
+}
+
+#skills li {
+    display: inline-flex;
+    align-items: center;
+    color: rgb(199, 199, 180);
+    border-color: lightblue;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    margin: 5px;
+    padding: 4px;
+    box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.1), 0 6px 20px 0 rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+    transition-duration: 0.2s;
+
+    /* Highlighting stuff */
+    -moz-user-select: -moz-none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#skills li:hover {
+    color: rgb(0, 183, 255);
+    font-weight: 500;
+    font-size: 19px;
+}
+
+
+#edubox {
+    /* color:rgb(196, 119, 5); */
+    color:rgb(216, 198, 171);
+}
+
+
+#edubox h4 {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#edubox .c {
+    margin-bottom: 7px;
+}
+
+#edubox ul {
+    margin-top: 5px;
+}
+
+#edubox li {
+    margin: 5px;
+}
+
+
+
+/* Center all the boxes */
+@media screen and (min-width: 1000px) {
+    #resumecontainer {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    #myname {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,41 @@
+.mediaDisplayScreen {
+    display: block;
+}
+
+.mediaDisplayhamburger {
+    display: none;
+}
+
+
+@media screen and (max-width: 900px) {
+    .mediaDisplayhamburger {
+      display: block;
+    }
+
+    .mediaDisplayhamburgerContent {
+        display: block;
+    }
+
+    .headerMainText {
+        font-size: 20px;
+    }
+
+    .mediaDisplayScreen {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .mediaDisplayhamburger {
+        display: none;
+    }
+
+    .headerMainText {
+        font-size: 30px;
+    }
+
+    .mediaDisplayScreen {
+        display: block;
+    }
+  }

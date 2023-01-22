@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/728e740903.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="/CSS/style.css">
+    <!-- <link rel="stylesheet/less" type="text/x-scss" href="/CSS/burger_menu.scss"> -->
+    <link rel="stylesheet" type="text/css" href="/CSS/flat_menu.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/burger_menu.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/media.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+
+
+    <title>Home</title>
+
+    <script>
+        $('input:checkbox').change(function(){
+            var c = $('mediaDisplayhamburgerContent');
+            if (this.checked) {
+                c.removeClass('fade-out');
+                c.addClass('fade-in');
+            } else {
+                c.removeClass('fade-in');
+                c.addClass('fade-out');
+            }
+        });
+    </script>
+</head>
+<body>
+    <header class="headerMain">
+        <span class="headerMainText">Itamar Oren-Naftalovich</span>
+        <span class="mediaDisplayScreen">
+            <ul>
+                <li><a href="#">Resume</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </span>
+
+        <span class="mediaDisplayhamburger">
+            <input type="checkbox" id="navi-toggle" class="checkbox" />
+            <label for="navi-toggle" class="button">
+            <span class="icon">&nbsp;</span>
+            </label>
+            <div class="background">&nbsp;</div>
+        </span>
+    </header>
+
+    <span class="mediaDisplayhamburgerContent fade-out">
+        <h1>HELLO WORLD</h1>
+    </span>
+</body>
+</html>
