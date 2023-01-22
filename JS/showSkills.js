@@ -1,5 +1,5 @@
 function langs(name) {
-    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
+    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=no,top=500,left=500,width=500,height=500");
     let desc = "";
     
     if (name =="javascript") {
@@ -59,7 +59,7 @@ function ml(name) {
 
 
 function data() {
-    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
+    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=no,top=500,left=500,width=500,height=500");
     var txt = `<h1>Data Analytic and Processing</h1>`;
     var desc = `I used the lightgbm and scikit-learn libraries to prepair the data for machine learning models, `;
     desc += `as well as using Pandas to present the data presented by said models`;
@@ -73,7 +73,7 @@ function data() {
 
 
 function APIs() {
-    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
+    const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=no,top=500,left=500,width=500,height=500");
     var txt = `<h1>API's</h1>`;
     var desc = `I used Node.js to work with the <a href="https://stripe.com/">Stripe API</a> `;
 
@@ -99,7 +99,7 @@ function databases(name) {
     } else if (name == "mysql") {
         openURL("https://www.mysql.com/");
     } else {
-        const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=yes,top=500,left=500,width=500,height=500");
+        const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=no,top=500,left=500,width=500,height=500");
         var txt = `<img src="https://github.com/ION606/personal-website/blob/main/icons/mongodb.png?raw=true">`;
         
         txt += `<h1>MongoDB</h1><p>`;
