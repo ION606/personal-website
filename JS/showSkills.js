@@ -34,7 +34,7 @@ function langs(name) {
 
 
     var txt = `<script>window.onbeforeunload = function() {window.close();}</script>`;
-    txt += `<link rel="stylesheet" type="text/css" href="http://dev.selmerbot.com/CSS/popups.css">`;
+    txt += `<link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/popups.css">`;
     txt += `<img src="https://github.com/ION606/personal-website/blob/main/icons/${(name == "c#") ? "csharp" : name}.png?raw=true">`;
     txt += `<h1>${name}</h1>`;
     txt += `<p>${desc}</p>`;
@@ -65,7 +65,7 @@ function data() {
     desc += `as well as using Pandas to present the data presented by said models`;
 
     txt += `<script>window.onbeforeunload = function() {window.close();}</script>`;
-    txt += `<link rel="stylesheet" type="text/css" href="http://dev.selmerbot.com/CSS/popups.css">`;
+    txt += `<link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/popups.css">`;
 
     txt += `<p>${desc}</p>`
     win.document.write(txt);
@@ -82,7 +82,7 @@ function APIs() {
 
     txt += `<p>${desc}</p>`;
     txt += `<script>window.onbeforeunload = function() {window.close();}</script>`;
-    txt += `<link rel="stylesheet" type="text/css" href="http://dev.selmerbot.com/CSS/popups.css">`;
+    txt += `<link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/popups.css">`;
     win.document.write(txt);
 }
 
@@ -106,7 +106,7 @@ function databases(name) {
         txt += "I use MongoDB when creating <a href=\"https://docs.selmerbot.com\">Selmer Bot</a>.";
         txt += "This includes the use of data aggregation, nested queries, mapping, and more</p>";
 
-        txt += `<link rel="stylesheet" type="text/css" href="http://dev.selmerbot.com/CSS/popups.css">`;
+        txt += `<link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/popups.css">`;
         txt += `<script>window.onbeforeunload = function() {window.close();}</script>`;
         win.document.write(txt);
     }
