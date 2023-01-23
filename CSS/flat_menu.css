@@ -21,7 +21,11 @@ ul li a {
     font-size: 1.4em;
     font-weight: 700;
     text-transform: uppercase;
-    padding: 10px 15px;
+    margin: 10px 15px;
+}
+
+ul li a i {
+    margin-right: 5px;
 }
 
 .fa-facebook{
