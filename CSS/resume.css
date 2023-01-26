@@ -184,6 +184,8 @@ hr {
 
 #edubox ul {
     margin-top: 5px;
+    list-style-type: none;
+    padding-left: none;
 }
 
 #edubox li {
