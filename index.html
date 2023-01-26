@@ -14,7 +14,7 @@
     <link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/style.css">
     <!-- <link rel="stylesheet/less" type="text/x-scss" href="https://dev.selmerbot.com/CSS/burger_menu.scss"> -->
     <link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/flat_menu.css">
-    <link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/burger_menu.css">
+    <link rel="stylesheet" type="text/css" href="/CSS/burger_menu.css">
     <link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/media.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 
@@ -46,12 +46,16 @@
         </span>
 
         <span class="mediaDisplayhamburger">
-            <input type="checkbox" id="navi-toggle" class="checkbox" />
-            <label for="navi-toggle" class="button">
-            <span class="icon">&nbsp;</span>
-            </label>
-            <div class="background">&nbsp;</div>
+            <label for="touch"><span>Menu</span></label>               
+            <input type="checkbox" id="touch"> 
+          
+            <ul class="slide">
+              <li><a href="resume">Resume</a></li> 
+              <li><a href="projects">Projects</a></li>
+              <li><a href="mailto:itamaron@protonmail.com">Contact</a></li>
+            </ul>
         </span>
+        <hr style="position: absolute; color: black; height: 2px;">
     </header>
 
     <!-- <span class="mediaDisplayhamburgerContent fade-out">
