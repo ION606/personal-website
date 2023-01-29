@@ -3,9 +3,9 @@ function langs(name) {
     let desc = "";
     
     if (name =="javascript") {
-        desc = "I used Javascript when creating the <a href=\"https://selmerbot.com\">Selmer Bot Website</a>";
+        desc = "I used Javascript when creating the <a href=\"http://www.selmerbot.com\" target=\"_blank\">Selmer Bot Website</a>";
     } else if (name == "node.js") {
-        desc = "I used node.js when creating <a href=\"https://docs.selmerbot.com\">Selmer Bot</a>.";
+        desc = "I used node.js when creating <a href=\"https://docs.selmerbot.com\" target=\"_blank\">Selmer Bot</a>.";
         desc += " I am well versed in many libraries including express.js, axios, Sequelize, MongoDb, and many more!";
     } else if (name == "asp.net") {
         desc = "I used ASP.NET (and ASP.NET Core) to create an API endpoint in order to recieve and process data";
@@ -75,7 +75,7 @@ function data() {
 function APIs() {
     const win = window.open("", "_blank", "toolbar=yes,scrollbars=yes,resizable=no,top=500,left=500,width=500,height=500");
     var txt = `<h1>API's</h1>`;
-    var desc = `I used Node.js to work with the <a href="https://stripe.com/">Stripe API</a> `;
+    var desc = `I used Node.js to work with the <a href="https://stripe.com/" target=\"_blank\">Stripe API</a> `;
 
     desc += `as well as using Postman to test a custom API-endpoint I created to send and `;
     desc += `recieve data for and from my machine learning models`;
@@ -103,7 +103,7 @@ function databases(name) {
         var txt = `<img src="https://github.com/ION606/personal-website/blob/main/icons/mongodb.png?raw=true">`;
         
         txt += `<h1>MongoDB</h1><p>`;
-        txt += "I use MongoDB when creating <a href=\"https://docs.selmerbot.com\">Selmer Bot</a>.";
+        txt += "I use MongoDB when creating <a href=\"https://docs.selmerbot.com\" target=\"_blank\">Selmer Bot</a>.";
         txt += "This includes the use of data aggregation, nested queries, mapping, and more</p>";
 
         txt += `<link rel="stylesheet" type="text/css" href="https://dev.selmerbot.com/CSS/popups.css">`;
