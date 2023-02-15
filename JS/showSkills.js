@@ -3,7 +3,7 @@ function langs(name) {
     let desc = "";
     
     if (name =="javascript") {
-        desc = "I used Javascript when creating the <a href=\"http://www.selmerbot.com\" target=\"_blank\">Selmer Bot Website</a>";
+        desc = "I used Javascript when creating the <a href=\"https://www.selmerbot.com\" target=\"_blank\">Selmer Bot Website</a>";
     } else if (name == "node.js") {
         desc = "I used node.js when creating <a href=\"https://docs.selmerbot.com\" target=\"_blank\">Selmer Bot</a>.";
         desc += " I am well versed in many libraries including express.js, axios, Sequelize, MongoDb, and many more!";
